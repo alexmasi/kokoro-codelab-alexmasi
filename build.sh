@@ -12,4 +12,6 @@ set -e
 #  parameters, will print the full command, with credentials, in the build logs.
 # set -x
 
-go run hello.go
+cd integration_test
+go get -t ./...
+go test --timeout 0
