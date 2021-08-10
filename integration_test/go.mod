@@ -13,8 +13,7 @@ require (
 	github.com/openconfig/gnmi v0.0.0-20210707145734-c69a5df04b53
 	github.com/sirupsen/logrus v1.8.1
 	google.golang.org/grpc v1.39.0 // indirect
-	// keysight.com/otgclient v0.0.0-00010101000000-000000000000
-  github.com/open-traffic-generator/models/ v0.3.6
+	keysight.com/otgclient v0.0.0-00010101000000-000000000000
 )
 
-// replace keysight.com/otgclient => ./libs/otgclient
+replace keysight.com/otgclient => ./libs/otgclient
